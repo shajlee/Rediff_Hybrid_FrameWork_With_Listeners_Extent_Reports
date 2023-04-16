@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite">
+              <span class="suite-name border-passed">Rediff Hybrid Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Rediff_Hybrid_Automation_Suite">
+                    <span>C:\Users\chowd\eclipse-workspace\Maven_Rediff_Hybrid_Framework\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Rediff_Hybrid_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Rediff_Hybrid_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Rediff_Hybrid_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Rediff_Hybrid_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Rediff_Hybrid_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Rediff_Hybrid_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Automation_Suite" class="hide-methods passed suite-Rediff_Hybrid_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Rediff_Hybrid_Automation_Suite -->
+                      <a href="#" panel-name="suite-Rediff_Hybrid_Automation_Suite" class="show-methods passed suite-Rediff_Hybrid_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Rediff_Hybrid_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rediff_Hybrid_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest" hash-for-method="clickOnSignInButton">clickOnSignInButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_InboxPageTest" hash-for-method="logInInboxButtonPresence">logInInboxButtonPresence</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LogoutTest" hash-for-method="logInLogOutLogOutConfirmation">logInLogOutLogOutConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LoginTests" hash-for-method="logInWithValidCredentials(chowdhurygs@rediffmail.com, Shajlee1@)">logInWithValidCredentials(chowdhurygs@rediffmail.com, Shajlee1@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LoginTests" hash-for-method="logInWithValidCredentials(Mohamedboudguig@rediffmail.com, Medbdg0707@)">logInWithValidCredentials(Mohamedboudguig@rediffmail.com, Medbdg0707@)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LoginTests" hash-for-method="logInWithValidCredentials(seleniumpanda@rediffmail.com, Selenium@123)">logInWithValidCredentials(seleniumpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LoginTests" hash-for-method="logInWithValidCredentials(sarthakkumarpanda@rediffmail.com, Selenium@123)">logInWithValidCredentials(sarthakkumarpanda@rediffmail.com, Selenium@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_RediffHomeTest" hash-for-method="rediffHome">rediffHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LinkTest" hash-for-method="rediffLinks">rediffLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LandingPageTest" hash-for-method="signInButtonisDisplayedandEnabled">signInButtonisDisplayedandEnabled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rediff_Hybrid_Automation_Suite" title="com.qa.hybridrediff.testcases.Hybrid_LandingPageTest" hash-for-method="validateCurrentUrlAndTitle">validateCurrentUrlAndTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rediff_Hybrid_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rediff_Hybrid_Automation_Suite" class="panel Rediff_Hybrid_Automation_Suite">
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_LinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rediffLinks">
+                  </a> <!-- rediffLinks -->
+                  <span class="method-name">rediffLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInButtonisDisplayedandEnabled">
+                  </a> <!-- signInButtonisDisplayedandEnabled -->
+                  <span class="method-name">signInButtonisDisplayedandEnabled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCurrentUrlAndTitle">
+                  </a> <!-- validateCurrentUrlAndTitle -->
+                  <span class="method-name">validateCurrentUrlAndTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_RediffHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rediffHome">
+                  </a> <!-- rediffHome -->
+                  <span class="method-name">rediffHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInLogOutLogOutConfirmation">
+                  </a> <!-- logInLogOutLogOutConfirmation -->
+                  <span class="method-name">logInLogOutLogOutConfirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSignInButton">
+                  </a> <!-- clickOnSignInButton -->
+                  <span class="method-name">clickOnSignInButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentials(chowdhurygs@rediffmail.com, Shajlee1@)">
+                  </a> <!-- logInWithValidCredentials(chowdhurygs@rediffmail.com, Shajlee1@) -->
+                  <span class="method-name">logInWithValidCredentials</span>
+                  <span class="parameters">(chowdhurygs@rediffmail.com, Shajlee1@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentials(Mohamedboudguig@rediffmail.com, Medbdg0707@)">
+                  </a> <!-- logInWithValidCredentials(Mohamedboudguig@rediffmail.com, Medbdg0707@) -->
+                  <span class="method-name">logInWithValidCredentials</span>
+                  <span class="parameters">(Mohamedboudguig@rediffmail.com, Medbdg0707@)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentials(seleniumpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentials(seleniumpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentials</span>
+                  <span class="parameters">(seleniumpanda@rediffmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInWithValidCredentials(sarthakkumarpanda@rediffmail.com, Selenium@123)">
+                  </a> <!-- logInWithValidCredentials(sarthakkumarpanda@rediffmail.com, Selenium@123) -->
+                  <span class="method-name">logInWithValidCredentials</span>
+                  <span class="parameters">(sarthakkumarpanda@rediffmail.com, Selenium@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-Rediff_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.hybridrediff.testcases.Hybrid_InboxPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logInInboxButtonPresence">
+                  </a> <!-- logInInboxButtonPresence -->
+                  <span class="method-name">logInInboxButtonPresence</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rediff_Hybrid_Automation_Suite-class-passed -->
+        </div> <!-- panel Rediff_Hybrid_Automation_Suite -->
+        <div panel-name="test-xml-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\chowd\eclipse-workspace\Maven_Rediff_Hybrid_Framework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Rediff Hybrid Automation Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Rediff Hybrid Automation Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_LandingPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_LoginTests&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_InboxPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_LogoutTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_RediffHomeTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.hybridrediff.testcases.Hybrid_LinkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rediff Hybrid Automation Test --&gt;
+&lt;/suite&gt; &lt;!-- Rediff Hybrid Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rediff Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rediff Hybrid Automation Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rediff Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rediff Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rediff_Hybrid_Automation_Suite');
+function tableData_Rediff_Hybrid_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'rediffHome')
+data.setCell(0, 2, 'com.qa.hybridrediff.testcases.Hybrid_RediffHomeTest')
+data.setCell(0, 3, 12240);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'rediffLinks')
+data.setCell(1, 2, 'com.qa.hybridrediff.testcases.Hybrid_LinkTest')
+data.setCell(1, 3, 11491);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logInLogOutLogOutConfirmation')
+data.setCell(2, 2, 'com.qa.hybridrediff.testcases.Hybrid_LogoutTest')
+data.setCell(2, 3, 11278);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logInInboxButtonPresence')
+data.setCell(3, 2, 'com.qa.hybridrediff.testcases.Hybrid_InboxPageTest')
+data.setCell(3, 3, 7318);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logInWithValidCredentials')
+data.setCell(4, 2, 'com.qa.hybridrediff.testcases.Hybrid_LoginTests')
+data.setCell(4, 3, 6169);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logInWithValidCredentials')
+data.setCell(5, 2, 'com.qa.hybridrediff.testcases.Hybrid_LoginTests')
+data.setCell(5, 3, 5549);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logInWithValidCredentials')
+data.setCell(6, 2, 'com.qa.hybridrediff.testcases.Hybrid_LoginTests')
+data.setCell(6, 3, 5378);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logInWithValidCredentials')
+data.setCell(7, 2, 'com.qa.hybridrediff.testcases.Hybrid_LoginTests')
+data.setCell(7, 3, 3928);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickOnSignInButton')
+data.setCell(8, 2, 'com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest')
+data.setCell(8, 3, 2220);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateCurrentUrlAndTitle')
+data.setCell(9, 2, 'com.qa.hybridrediff.testcases.Hybrid_LandingPageTest')
+data.setCell(9, 3, 138);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signInButtonisDisplayedandEnabled')
+data.setCell(10, 2, 'com.qa.hybridrediff.testcases.Hybrid_LandingPageTest')
+data.setCell(10, 3, 98);
+window.suiteTableData['Rediff_Hybrid_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Rediff_Hybrid_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Rediff_Hybrid_Automation_Suite">
+              </div> <!-- times-div-Rediff_Hybrid_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rediff Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rediff_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_InboxPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2765 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4781 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCurrentUrlAndTitle</span>
+                <span class="method-start">11471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11610 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_SignInLinkTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickOnSignInButton</span>
+                <span class="method-start">12701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14921 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentials(chowdhurygs@rediffmail.com, Shajlee1@)</span>
+                <span class="method-start">21366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentials(seleniumpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">32254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentials(sarthakkumarpanda@rediffmail.com, Selenium@123)</span>
+                <span class="method-start">40052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logInWithValidCredentials(Mohamedboudguig@rediffmail.com, Medbdg0707@)</span>
+                <span class="method-start">50416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55794 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_InboxPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInInboxButtonPresence</span>
+                <span class="method-start">56482 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63800 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logInLogOutLogOutConfirmation</span>
+                <span class="method-start">64551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75829 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_RediffHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">76539 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rediffHome</span>
+                <span class="method-start">78786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91026 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rediffLinks</span>
+                <span class="method-start">93387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.hybridrediff.testcases.Hybrid_LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">105563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInButtonisDisplayedandEnabled</span>
+                <span class="method-start">107233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107331 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
